@@ -1,0 +1,38 @@
+.aa{
+    font-size: large;
+    color: red;
+    position: relative;
+}
+.aa::after{
+    content: " ";
+    position: absolute;
+    left: 50%;
+    background:#fff;
+    height: 3px;
+    width: 0;
+    top:"100%";
+    margin: 1px 0;
+    transition: all 0.3s linear;
+
+
+}
+.aa::before{
+    content: " ";
+    position: absolute;
+    right: 50%;
+    background:#fff;
+    height: 3px;
+    width: 0;
+    top:"100%";
+    margin: 1px 0;
+    transition: all 0.3s linear;
+
+}
+.aa:hover:after{
+ width: 50%;
+ background: #73bf7b;
+}
+.aa:hover::before{
+    width: 50%;
+    background: #73bf7b;
+   }
