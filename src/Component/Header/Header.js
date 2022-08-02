@@ -32,7 +32,7 @@ const Header = () => {
           <Link class="aa nav-link me-3 shadow-lg" to="/contact">Contact</Link>
         </li>
         <li class="nav-item">
-          <a href="https://drive.google.com/file/d/1BYwJWWbUBfIEzEtR32dexlti844EWgKC/view?usp=sharing" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1aBx7r6qHee6SzBkNfHMLI1uFVxVI4Ib0/view?usp=sharing" rel="noreferrer">
               <button className="btn btn-secondary ms-5">Resume</button>
           </a>
         </li>
